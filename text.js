@@ -43,6 +43,7 @@ var speedCalc=function(){
     clearInterval(myVar)
     var no=text[b].length;
     var speed=no/time;
+    speed=speed.toFixed(2);
     document.getElementById("ts").innerHTML=speed;
     document.getElementById("speed").style.display='block';
 
